@@ -1,0 +1,350 @@
+{
+	"id": "4ff12e00-e5da-417b-a9a5-a231b6f19fd3",
+	"name": "SCAN-interfax",
+	"timestamp": "2023-05-15T06:35:55.885Z",
+	"collection_id": "25707580-f783b69d-f40d-4dce-84f3-7a7dfc956539",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 120,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-15T06:35:29.656Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9415d40e-4ecf-4d78-a21b-e86d49d660c1",
+			"name": "Authorization USER",
+			"url": "https://gateway.scan-interfax.ru/api/v1/account/login",
+			"time": 282,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Запись ключа": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 19,
+					"fail": 0
+				},
+				"Запись ключа": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				380,
+				303,
+				273,
+				298,
+				337,
+				340,
+				1556,
+				300,
+				275,
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Запись ключа": true
+				},
+				{
+					"Status code is 200": true,
+					"Запись ключа": true
+				},
+				{
+					"Status code is 200": true,
+					"Запись ключа": true
+				},
+				{
+					"Status code is 200": true,
+					"Запись ключа": true
+				},
+				{
+					"Status code is 200": true,
+					"Запись ключа": true
+				},
+				{
+					"Status code is 200": true,
+					"Запись ключа": true
+				},
+				{
+					"Status code is 200": true,
+					"Запись ключа": true
+				},
+				{
+					"Status code is 200": true,
+					"Запись ключа": true
+				},
+				{
+					"Status code is 200": true,
+					"Запись ключа": true
+				},
+				{
+					"Status code is 200": true,
+					"Запись ключа": true
+				}
+			]
+		},
+		{
+			"id": "0ef4dbdc-9b76-4dcf-aa1f-a40169a2bda5",
+			"name": "GET balance",
+			"url": "https://gateway.scan-interfax.ru/api/v1/account/balance",
+			"time": 413,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Получение баланса": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 19,
+					"fail": 0
+				},
+				"Получение баланса": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				396,
+				444,
+				420,
+				408,
+				447,
+				826,
+				2682,
+				395,
+				481,
+				413
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Получение баланса": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение баланса": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение баланса": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение баланса": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение баланса": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение баланса": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение баланса": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение баланса": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение баланса": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение баланса": true
+				}
+			]
+		},
+		{
+			"id": "6de07ed5-5f9a-47f0-94e4-c0545d0c0b79",
+			"name": "GET subjects",
+			"url": "https://gateway.scan-interfax.ru/api/v1/entities/subjects?index=0&pageSize=5",
+			"time": 242,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Получение тем публикаций": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 19,
+					"fail": 0
+				},
+				"Получение тем публикаций": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				504,
+				138,
+				139,
+				117,
+				340,
+				426,
+				162,
+				573,
+				187,
+				242
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Получение тем публикаций": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение тем публикаций": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение тем публикаций": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение тем публикаций": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение тем публикаций": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение тем публикаций": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение тем публикаций": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение тем публикаций": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение тем публикаций": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение тем публикаций": true
+				}
+			]
+		},
+		{
+			"id": "0251900e-db14-43f5-96c1-27450b477ec8",
+			"name": "GET Docs",
+			"url": "https://gateway.scan-interfax.ru/api/v1/documents",
+			"time": 254,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Получение lj": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 19,
+					"fail": 0
+				},
+				"Получение lj": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				648,
+				738,
+				204,
+				621,
+				218,
+				454,
+				205,
+				909,
+				466,
+				254
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Получение lj": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение lj": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение lj": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение lj": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение lj": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение lj": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение lj": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение lj": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение lj": true
+				},
+				{
+					"Status code is 200": true,
+					"Получение lj": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 18801,
+	"collection": {
+		"requests": [
+			{
+				"id": "9415d40e-4ecf-4d78-a21b-e86d49d660c1",
+				"method": "POST"
+			},
+			{
+				"id": "0ef4dbdc-9b76-4dcf-aa1f-a40169a2bda5",
+				"method": "GET"
+			},
+			{
+				"id": "6de07ed5-5f9a-47f0-94e4-c0545d0c0b79",
+				"method": "GET"
+			},
+			{
+				"id": "0251900e-db14-43f5-96c1-27450b477ec8",
+				"method": "POST"
+			}
+		]
+	}
+}
