@@ -6,8 +6,8 @@ API VK ВКонтакте - Postman коллекция API VK в части работы с фото</br>
 
 <h4>Стажировки на реальных проектах</h4></br>
 Shopiland - Стажировка от компании PRO.MOTION </br>
-PREMIUM IT Solution - Стажировка от компании PREMIUM IT Solution </br>
-СБЕР.ЗДОРОВЬЕ - Стажировка от компании СБЕР.ЗДОРОВЬЕ </br>
+PREMIUM IT Solution - Тестовое задание от компании PREMIUM IT Solution </br>
+СБЕР.ЗДОРОВЬЕ - Тестовое задание от компании СБЕР.ЗДОРОВЬЕ </br>
 
 
 
